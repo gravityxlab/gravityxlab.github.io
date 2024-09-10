@@ -1,0 +1,15 @@
+{
+  "name": "gravityxlab.github.io",
+  "version": "0.1.0",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "repository": "git@github.com:gravityxlab/gravityxlab.github.io.git",
+  "author": "ywwwtseng <ywwwtseng@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev:chart": "parcel src/chart/index.html",
+    "build:chart": "parcel build src/chart/index.html --dist-dir libs/chart --public-url /libs/chart"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}

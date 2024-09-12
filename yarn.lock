@@ -25,6 +25,10 @@
     js-tokens "^4.0.0"
     picocolors "^1.0.0"
 
+"@gravityxlab/libs@github:gravityxlab/libs":
+  version "0.1.0"
+  resolved "https://codeload.github.com/gravityxlab/libs/tar.gz/3fc05a7ac964ea35a46b44d5908ecce379089b54"
+
 "@lezer/common@^1.0.0":
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/@lezer/common/-/common-1.2.1.tgz#198b278b7869668e1bebbe687586e12a42731049"

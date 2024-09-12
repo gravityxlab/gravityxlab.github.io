@@ -6,10 +6,14 @@
   "author": "ywwwtseng <ywwwtseng@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev:chart": "parcel src/chart/index.html",
-    "build:chart": "parcel build src/chart/index.html --dist-dir libs/chart --public-url /libs/chart"
+    "dev:syschart": "parcel src/syschart/index.html",
+    "pre:build:syschart": "rm -rf libs/syschart",
+    "build:syschart": "yarn pre:build:syschart && parcel build src/syschart/index.html --dist-dir libs/syschart --public-url /libs/syschart"
   },
   "devDependencies": {
     "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "@gravityxlab/libs": "github:gravityxlab/libs"
   }
 }
